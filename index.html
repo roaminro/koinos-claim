@@ -235,12 +235,12 @@
     </div>
   </div>
   <script src="https://cdn.ethers.io/lib/ethers-5.0.umd.min.js" type="text/javascript"></script>
-  <script src="js/kondor.js"></script>
-  <script src="js/koinos.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/joticajulian/kondor-js@latest/dist/kondor.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/joticajulian/koilib@latest/dist/koinos.min.js"></script>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </body>
 <script type="module">
-  import MyKoinosWallet from './js/my-koinos-wallet-sdk.module.js'
+  import MyKoinosWallet from 'https://cdn.jsdelivr.net/gh/roaminro/my-koinos-wallet-sdk@latest/dist/my-koinos-wallet-sdk.module.js'
 
   const { createApp } = Vue
   let rcLimit = 1e9;
