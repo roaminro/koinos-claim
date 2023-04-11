@@ -1,6 +1,6 @@
 {
   "name": "koinos-claim",
-  "version": "1.4.0",
+  "version": "1.3.0",
   "private": true,
   "scripts": {
     "docs": "copyfiles index.html docs && copyfiles package.json docs && copyfiles style.css docs && copyfiles js/** docs && copyfiles claim-abi.json docs && copyfiles static/** docs",
@@ -8,7 +8,6 @@
     "start": "node ./server.js"
   },
   "dependencies": {
-    "@roamin/my-koinos-wallet-sdk": "^0.0.4",
     "copyfiles": "^2.4.1",
     "koilib": "^5.2.0",
     "kondor-js": "^0.3.2"
